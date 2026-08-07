@@ -23,10 +23,3 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-//Cypress.Commands.add('clearAndType', { prevSubject: 'element' }, (element, text) => {
-    //cy.wrap(element)
-    //.invoke('val', '')
-    //.trigger('input')
-    //.trigger('change')
-    //.type(text, {force: true});
-//});
